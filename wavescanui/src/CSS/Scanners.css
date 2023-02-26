@@ -1,0 +1,36 @@
+.scanners {
+    background-color: #5D5C61;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table {
+    margin-top: 160px;
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 3px;
+}
+
+.rowItemContainer {
+    display: grid;
+    grid-template-columns: repeat(6, 180px) ;
+    background-color: #7395AE;
+}
+
+.header {
+    background-color: #557A95;
+    font-weight: bold;
+}
+.connect {
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+}
+
+.connectDis {
+    pointer-events: none;
+    align-self: center;
+}

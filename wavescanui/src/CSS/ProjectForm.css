@@ -1,0 +1,52 @@
+.page {
+    display: flex;
+    width: 80%;
+    height: 100vh;
+    background-color: #5D5C61;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    background-color: #708090;  
+    border-radius: 30px; 
+    height:620px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+.formitem {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    border-radius: 10px;
+    height: 15px;
+    text-align: center;
+}
+.nameinput {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.xyinput {
+    width: 60px;
+    margin: 0 4px;
+}
+
+.option {
+    width: 190px;
+}
+
+.XY {
+    display: flex;
+    align-items: center;
+}
+
+.submit {
+}

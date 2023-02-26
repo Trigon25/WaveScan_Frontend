@@ -1,0 +1,12 @@
+.Home {
+  text-align: center;
+  display: flex;
+  width: 80%;
+  background-color:	#708090;
+}
+
+.refreshButton {
+  position: absolute;
+  right: 2%;
+  top: 30px
+}

@@ -1,0 +1,55 @@
+.SideBar {
+    width: 300px;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.panelContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    height: 100px;
+    background-color: rgb(156, 161, 167);
+
+    /* width: auto; */
+}
+
+.title p{
+    font-size: 30px;
+}
+
+.panelItem {
+    background-color:  rgb(192, 192, 192);
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    margin: 50px 0;
+}
+
+.panelText {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 50%;
+}
+
+a.active {    
+    text-decoration: none;
+    background-color:  rgb(192, 192, 192);
+}
