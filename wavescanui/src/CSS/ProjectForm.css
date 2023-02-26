@@ -48,5 +48,10 @@ input {
     align-items: center;
 }
 
+.redirect {
+    background-color: antiquewhite;
+    padding: 0 20px;
+    border-radius: 15px;
+}
 .submit {
 }

@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef, useCallback, useContext } from "react";
 import { postData } from "../APIHandler/CallingAPI";
 import FormContext from "../Components/FormContext";
+import { NavLink } from "react-router-dom";
 import Button from "../UIElements/Button"
 import '../CSS/ProjectForm.css'
 import AppContext from "../Components/AppContext";
@@ -187,7 +188,17 @@ const ProjectForm = () => {
                 </div> : null}
 
                 <div>
-                    {res === "Success!" ? <p>{res}</p> : 
+                    {res === "Success!" ? 
+                    <>
+                        <p>{res}</p> 
+                        <div className="redirect">
+                            <NavLink to='/' className="panelItem">
+                                <p className="panelText">To Scanners</p>
+                            </NavLink>
+                        </div>
+                    </>
+                        
+                        : 
                         <div>
                             {problem}
                         </div>
